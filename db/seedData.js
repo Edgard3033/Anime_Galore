@@ -1,7 +1,16 @@
 // Create dummy data to seed into your DB
-const users = [];
-const activities = [];
-const routines = [];
-const routine_activities = [];
+const users = [
+  { username: "Edgard123", password: "Password123" },
+  { username: "Hayley123", password: "Password123" },
+];
 
-module.exports = { users, activities, routines, routine_activities };
+const categories = [
+  { name: "Naruto" },
+  { name: "One Piece" },
+  { name: "Dragon Ball Z" },
+];
+
+module.exports = {
+  users,
+  categories,
+};
